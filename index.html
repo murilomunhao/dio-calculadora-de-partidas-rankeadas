@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de partidas rankeadas</title>
+    <link rel="stylesheet" href="/src/assets/css/main.css" />
+    <script src="/src/assets/js/ranked.js" ></script>
+  </head>
+  <body class="bg-img">
+    <audio id="alert-song" src="/src/assets/audio/alert.wav" ></audio>
+    <main>
+      <header>
+        <h1>Calculadora de partidas rankeadas</h1>
+      </header>
+      <div class="container">
+          <div class="calculator">
+            <div class="display">
+              <div class="result-display">
+                <div class="alert">
+                  <h2 id="alert-title"></h2>
+                  <p id="alert-desc"></p>
+                </div>
+                <p id="result">Entre com os valores abaixo!</p>
+                <div class="text-inputs" id="text-inputs">
+                  <input id="victory" type="number" maxlength="6" placeholder="Número de vitórias"  >
+                  <input id="lowser" type="number" maxlength="6" placeholder="Número de derrotas" >
+                </div>
+              </div>
+            </div>
+            <div class="keys">
+              <div class="numbers">
+                <div class="keys-block">
+                  <ul>
+                    <li id="num7">7</li>
+                    <li id="num8">8</li>
+                    <li id="num9">9</li>
+                  </ul>
+                </div>
+                <div class="keys-block">
+                  <ul>
+                    <li id="num4">4</li>
+                    <li id="num5">5</li>
+                    <li id="num6">6</li>
+                  </ul>
+                </div>
+                <div class="keys-block">
+                  <ul>
+                    <li id="num1">1</li>
+                    <li id="num2">2</li>
+                    <li id="num3">3</li>
+                  </ul>
+                </div>
+                <div class="keys-block key0">
+                  <ul class="key0-list">
+                    <li class="zero" id="num0">0</li>
+                    <li class="limpar" id="limpar">Limpar</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="operator">
+                <button class="btn" type="button"><pre>Calcular</pre></button>
+              </div>
+            </div>
+          </div> 
+      </div>
+      <footer>
+        <h4>Projeto do curso <span>Bootcamp Santander 2024 - Criando Jogos com Godot</span></h4>
+        <h4>Desenvolvido por <a href="https://www.dio.me/users/contato_25182" target="_blank">Murilo Munhão</a></h4>
+      </footer>
+    </main>
+  </body>
+</html>
