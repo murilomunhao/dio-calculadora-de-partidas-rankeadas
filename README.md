@@ -31,7 +31,8 @@ Instruções de Uso
 4. Clique no botão "Calcular" para ver o resultado.
 5. Caso deseje limpar os campos, clique no botão "Limpar".
 
-Acesse 
+Acesse uma versão web 
+https://murilomunhao.github.io/dio-calculadora-de-partidas-rankeadas/
 
 Estrutura do Projeto
 
