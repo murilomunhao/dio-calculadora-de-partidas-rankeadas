@@ -79,37 +79,37 @@ botao.addEventListener('click', () => {
       switch (true) {
         case (ranked < 10):
           rankLevel = 'Ferro!';
-          desc = `O Herói tem de saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
+          desc = `O Herói tem um saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
           showAlert("Resultado!", desc, 5000);
           break;
           case (ranked >= 11 && ranked <= 20):
             rankLevel = 'Bronze!';
-            desc = `O Herói tem de saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
+            desc = `O Herói tem um saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
             showAlert("Resultado!", desc, 5000);
             break;
         case (ranked >= 21 && ranked <= 50):
           rankLevel = 'Prata!';
-          desc = `O Herói tem de saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
+          desc = `O Herói tem um saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
           showAlert("Resultado!", desc, 5000);
             break;
         case (ranked >= 51 && ranked <= 80):
           rankLevel = 'Ouro!';
-          desc = `O Herói tem de saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
+          desc = `O Herói tem um saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
           showAlert("Resultado!", desc, 5000);
             break;
         case (ranked >= 81 && ranked <= 90):
           rankLevel = 'Diamante!';
-          desc = `O Herói tem de saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
+          desc = `O Herói tem um saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
           showAlert("Resultado!", desc, 5000);
             break;
         case (ranked >= 91 && ranked <= 100):
           rankLevel = 'Lendário!';
-          desc = `O Herói tem de saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
+          desc = `O Herói tem um saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
           showAlert("Resultado!", desc, 5000);
             break;
         case (ranked >= 101):
           rankLevel = 'Imortal!';
-          desc = `O Herói tem de saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
+          desc = `O Herói tem um saldo de <span class="highlight">${ranked} vitórias</span> e está no nível de <span class="rank">${rankLevel}!</span>`;
           showAlert("Resultado!", desc, 5000);
             break;
         default:
