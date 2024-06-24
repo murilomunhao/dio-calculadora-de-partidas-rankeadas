@@ -24,7 +24,7 @@ Este é um projeto de uma calculadora simples para determinar o saldo de vitóri
    ```bash
    git clone https://github.com/murilomunhao/dio-calculadora-de-partidas-rankeadas.git
 
-Instruções de Uso
+
 
 2. Abra o arquivo `index.html` em seu navegador web.
 3. Insira o número de vitórias e derrotas nos campos de entrada.
