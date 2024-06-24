@@ -22,7 +22,7 @@ Este é um projeto de uma calculadora simples para determinar o saldo de vitóri
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/murilomunhao/dio-calculadora-de-partidas-rankeadas.git
 
 Instruções de Uso
 
